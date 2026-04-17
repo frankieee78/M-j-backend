@@ -1,1 +1,4 @@
-web: cd backend && python main.py
+fastapi
+uvicorn[standard]
+pydantic
+# přidej další balíčky, které tvůj server.py importuje (např. motor pro MongoDB, python-dotenv, atd.)
