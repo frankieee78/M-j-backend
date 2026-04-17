@@ -1,4 +1,1 @@
-fastapi
-uvicorn[standard]
-pydantic
-# přidej další balíčky, které tvůj server.py importuje (např. motor pro MongoDB, python-dotenv, atd.)
+web: uvicorn server:app --host 0.0.0.0 --port $PORT
